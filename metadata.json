@@ -1,0 +1,7 @@
+{
+  "name": "Digital Selam",
+  "description": "A virtual exchange platform and co-creation hub for young African tech creators, storytellers, and linguists to preserve indigenous languages and oral traditions using AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
