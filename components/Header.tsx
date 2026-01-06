@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Globe, Menu, X, Users, LayoutGrid, BookOpen, Calendar } from 'lucide-react';
-import { Language } from '../types';
+import { Language } from '../types.ts';
 
 interface HeaderProps {
   lang: Language;

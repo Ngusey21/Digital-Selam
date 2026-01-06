@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Search, FileText, PlayCircle, Tool, ArrowRight } from 'lucide-react';
-import { Resource, Language } from '../types';
+import { Search, FileText, PlayCircle, Wrench, ArrowRight } from 'lucide-react';
+import { Resource, Language } from '../types.ts';
 
 interface ResourceLibraryProps {
   resources: Resource[];
@@ -13,7 +13,7 @@ const ResourceLibrary: React.FC<ResourceLibraryProps> = ({ resources, lang }) =>
     switch (type) {
       case 'PDF': return <FileText className="w-5 h-5 text-red-500" />;
       case 'Video': return <PlayCircle className="w-5 h-5 text-blue-500" />;
-      default: return <Tool className="w-5 h-5 text-purple-500" />;
+      default: return <Wrench className="w-5 h-5 text-purple-500" />;
     }
   };
 

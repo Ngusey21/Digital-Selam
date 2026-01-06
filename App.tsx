@@ -1,13 +1,12 @@
 
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import ProjectCard from './components/ProjectCard';
-import CollaborationBoard from './components/CollaborationBoard';
-import ResourceLibrary from './components/ResourceLibrary';
-import AISandbox from './components/AISandbox';
-import { Language, Project, Idea, Resource, Event } from './types';
-// Fixed: Added Globe to the lucide-react imports to resolve the "Cannot find name 'Globe'" error
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import ProjectCard from './components/ProjectCard.tsx';
+import CollaborationBoard from './components/CollaborationBoard.tsx';
+import ResourceLibrary from './components/ResourceLibrary.tsx';
+import AISandbox from './components/AISandbox.tsx';
+import { Language, Project, Idea, Resource, Event } from './types.ts';
 import { Calendar, Users, Target, Info, Mail, Globe } from 'lucide-react';
 
 const mockProjects: Project[] = [

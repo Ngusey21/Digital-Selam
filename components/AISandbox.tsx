@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { BrainCircuit, Sparkles, Languages, Loader2, ArrowRight } from 'lucide-react';
-import { Language } from '../types';
-import { analyzeCulturalText } from '../services/gemini';
+import { Language } from '../types.ts';
+import { analyzeCulturalText } from '../services/gemini.ts';
 
 interface AISandboxProps {
   lang: Language;
